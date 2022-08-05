@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+    scroll-margin-top: 80px;
+}
+
+body {
+    font-size: 20px;
+    color: #333;
+    font-weight: 300;
+    text-align: center;
+    background-color: #f8f6f0;
+}
+.start__btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    outline: none;
+    border: none;
+    padding: 20px 40px;
+    background: linear-gradient(to bottom, rgba(174, 188, 191, 1) 0%, rgb(37, 95, 157) 30%, rgb(41, 143, 41) 50%, rgb(151, 57, 104) 100%);
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    color: white;
+    z-index: 1;
+}
+.container__end {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.3);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.container__quiz.active__container {
+    opacity: 1;
+    z-index: 5;
+}
+.hide {
+    display: none;
+}
+
+.container__quiz {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(184, 179, 179);
+    box-shadow: 0 2px 5px 0 rgba(51, 62, 73, 0.1);
+    opacity: 0;
+    padding: 20px 20px;
+}
+
+.title__container {
+    background: linear-gradient(to right, #0051ff 0%, #4edd4c 100%);
+    color: white;
+    width: 100%
+}
+
+.question {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.answers {
+    padding-bottom: 20px;
+    text-align: left;
+    display: inline-block;
+}
+
+.answers label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#previous,
+#submit,
+#next ,
+.modal__endGame__Btn{
+    outline: none;
+    border: none;
+    padding: 15px 40px;
+    background: linear-gradient(to bottom, rgba(174, 188, 191, 1) 0%, rgb(37, 95, 157) 30%, rgb(41, 143, 41) 50%, rgb(151, 57, 104) 100%);
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    margin: 20px 20px;
+    transition: transform 0.4s;
+}
+#previous:hover,
+#submit:hover,
+#next:hover {
+    background: linear-gradient(to bottom, rgba(174, 188, 191, 1) 0%, rgb(37, 95, 157) 30%, rgb(41, 143, 41) 50%, rgb(151, 57, 104) 100%);
+    transform: scale(1.1);
+    opacity: 0.7;
+}
+
+
+
+
+
+.slide {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.active-slide {
+    opacity: 1;
+    z-index: 2;
+}
+
+.quiz__container {
+    position: relative;
+    height: 300px;
+    margin: 40px 0px;
+}
+.container__end {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.7);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+.modal__end {
+    height: 25rem;
+    width: 20rem;
+    padding: 20px 0;
+    background-color: rgb(0,0,0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 25px;
+    text-align: center;
+}
+h1 {
+    font-size: 25px;
+}
+h2.endGame {
+    font-size: 20px;
+}
+
+input[type=checkbox] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
