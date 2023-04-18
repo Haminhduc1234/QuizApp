@@ -1,47 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Image Slideshow</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./style.css">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
     <script src="./script.js" defer></script>
-</head>
+  </head>
 
-<body>
+  <body onload="NextQuestion(0)">
+    <main>
+      <!-- creating a modal for when quiz ends -->
+      <div class="modal-container" id="score-modal">
+        <div class="modal-content-container">
+          <h1>Congratulations, Quiz Completed.</h1>
 
-    <!-- Start Quiz Btn -->
-    <div class="start__btn__container">
-        <button class="start__btn">Start Quiz</button>
-    </div>
+          <div class="grade-details">
+            <p>Attempts : 10</p>
+            <p>Wrong Answers : <span id="wrong-answers"></span></p>
+            <p>Right Answers : <span id="right-answers"></span></p>
+            <p>Grade : <span id="grade-percentage"></span>%</p>
+            <p><span id="remarks"></span></p>
+          </div>
 
-    <!-- Quiz End -->
-    <div class="container__end">
-        <div class="modal__end">
-            <h1>Congratulations!</h1>
-            <h2 class="endGame"></h2>
-            <div class="score__details">
-                <p>Score :<span id="player__score"></span> / 10</p>
-                <button class="modal__endGame__Btn" onclick="closeEndGameModal()">Continue</button>
+          <div class="modal-button-container">
+            <button onclick="closeScoreModal()">Continue</button>
+          </div>
+        </div>
+      </div>
+      <!-- end of modal of quiz details-->
+
+      <div class="game-quiz-container">
+        <div class="game-details-container">
+          <h1>Score : <span id="player-score"></span> / 10</h1>
+          <h1>Question : <span id="question-number"></span> / 10</h1>
+        </div>
+
+        <div id="display-question"></div>
+
+        <div class="game-options-container">
+          <div class="modal-container" id="option-modal">
+            <div class="modal-content-container">
+              <h1>Please Pick An Option</h1>
+
+              <div class="modal-button-container">
+                <button onclick="closeOptionModal()">Continue</button>
+              </div>
             </div>
+          </div>
 
-        </div>
-    </div>
+          <div class="answer">
+            <input
+              type="radio"
+              id="option-one"
+              name="option"
+              class="radio"
+              value="optionA"
+            />
+            <label
+              for="option-one"
+              class="option"
+              id="option-one-label"
+            ></label>
+          </div>
 
-    <!-- Quiz Container -->
-    <div class="container__quiz">
-        <h1 class="title__container">Javascript Online Quiz Made By DucHM</h1>
-        <div class="quiz__container">
-            <div id="quiz"></div>
+          <div class="answer">
+            <input
+              type="radio"
+              id="option-two"
+              name="option"
+              class="radio"
+              value="optionB"
+            />
+            <label
+              for="option-two"
+              class="option"
+              id="option-two-label"
+            ></label>
+          </div>
+
+          <div class="answer">
+            <input
+              type="radio"
+              id="option-three"
+              name="option"
+              class="radio"
+              value="optionC"
+            />
+            <label
+              for="option-three"
+              class="option"
+              id="option-three-label"
+            ></label>
+          </div>
+
+          <div class="answer">
+            <input
+              type="radio"
+              id="option-four"
+              name="option"
+              class="radio"
+              value="optionD"
+            />
+            <label
+              for="option-four"
+              class="option"
+              id="option-four-label"
+            ></label>
+          </div>
         </div>
-        <div>
-            <button id="previous">Previous Question</button>
-            <button id="next">Next Question</button>
-            <button id="submit">Submit Quiz</button>
+
+        <div class="next-button-container">
+          <button onclick="handleNextQuestion()">Next Question</button>
         </div>
-    </div>
-    
-</body>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
