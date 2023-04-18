@@ -86,7 +86,7 @@ main {
 .game-options-container .answer {
     width: 90%;
     margin-top: 10px;
-    height: 3rem;
+    height: 4rem;
     background-color: rgb(207, 201, 201);
     border: none;
     border-radius: 10px;
@@ -95,6 +95,9 @@ main {
 
 .game-options-container .answer:hover {
     background: paleturquoise;
+    -ms-transform: scale(1.12);
+    -webkit-transform: scale(1.12);
+    transform: scale(1.12);
 }
 
 .answer label {
@@ -111,9 +114,6 @@ main {
 }
 
 .answer label:hover {
-    -ms-transform: scale(1.12);
-    -webkit-transform: scale(1.12);
-    transform: scale(1.12);
     color: white;
 }
 
