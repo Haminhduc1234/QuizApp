@@ -21,13 +21,13 @@
       <!-- creating a modal for when quiz ends -->
       <div class="modal-container" id="score-modal">
         <div class="modal-content-container">
-          <h1>Congratulations, Quiz Completed.</h1>
+          <h1>Bạn đã hoàn thành bài thi !</h1>
 
           <div class="grade-details">
-            <p>Attempts : 10</p>
-            <p>Wrong Answers : <span id="wrong-answers"></span></p>
-            <p>Right Answers : <span id="right-answers"></span></p>
-            <p>Grade : <span id="grade-percentage"></span>%</p>
+            <p>Tổng số câu : 27</p>
+            <p>Số câu sai : <span id="wrong-answers"></span></p>
+            <p>Số câu đúng : <span id="right-answers"></span></p>
+            <p>Tỷ lệ đúng : <span id="grade-percentage"></span>%</p>
             <p><span id="remarks"></span></p>
           </div>
 
@@ -40,8 +40,8 @@
 
       <div class="game-quiz-container">
         <div class="game-details-container">
-          <h1>Score : <span id="player-score"></span> / 10</h1>
-          <h1>Question : <span id="question-number"></span> / 10</h1>
+          <h1>Điểm : <span id="player-score"></span> / 27</h1>
+          <h1>Câu hỏi : <span id="question-number"></span> / 27</h1>
         </div>
 
         <div id="display-question"></div>
@@ -49,10 +49,10 @@
         <div class="game-options-container">
           <div class="modal-container" id="option-modal">
             <div class="modal-content-container">
-              <h1>Please Pick An Option</h1>
+              <h1>Vui lòng chọn đáp án ^^</h1>
 
               <div class="modal-button-container">
-                <button onclick="closeOptionModal()">Continue</button>
+                <button onclick="closeOptionModal()">Tiếp tục</button>
               </div>
             </div>
           </div>
@@ -119,7 +119,7 @@
         </div>
 
         <div class="next-button-container">
-          <button onclick="handleNextQuestion()">Next Question</button>
+          <button onclick="handleNextQuestion()">Tiếp</button>
         </div>
       </div>
     </main>

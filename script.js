@@ -90,15 +90,175 @@ const questions = [
     optionD: "Ven biển Nam Trung Bộ",
     correctOption: "optionC",
   },
-];
+  {
+    question: "Nhiệt độ không khí ở nước ta tăng dần:",
+    optionA: "từ bắc vào nam",
+    optionB: "từ tây sang đông",
+    optionC: "từ thấp lên cao",
+    optionD: "từ miền biển vào miền núi",
+    correctOption: "optionA",
+  },
 
+  {
+    question: "Loại gió về mùa hạ ở nước ta chủ yếu có hướng:",
+    optionA: "tây bắc",
+    optionB: "đông bắc",
+    optionC: "đông nam",
+    optionD: "tây nam",
+    correctOption: "optionD",
+  },
+
+  {
+    question: "Lượng mưa trung bình năm ở nước ta là:",
+    optionA: "1.200 - 2.000mm",
+    optionB: "1.300 - 2.000mm",
+    optionC: "1.400 - 2.000mm",
+    optionD: "1.500 - 2.000mm",
+    correctOption: "optionD",
+  },
+
+  {
+    question: "Gió mùa đông bắc ít ảnh hưởng đến phần lãnh thổ:",
+    optionA: "Trung du và miền núi Bắc Bộ",
+    optionB: "Đông Trường Sơn",
+    optionC: "Nam Bộ và Tây Nguyên",
+    optionD: "Đồng bằng Bắc Bộ",
+    correctOption: "optionC",
+  },
+
+  {
+    question: `Trong số các con sông của nước ta, sông có hàm lượng 
+      phù sa trung bình lớn nhất là:`,
+    optionA: "sông Hồng",
+    optionB: "sông Cửu Long",
+    optionC: "sông Cả",
+    optionD: "sông Đồng Nai",
+    correctOption: "optionA",
+  },
+
+  {
+    question: "Đặc điểm chung nổi bật của các sông ở Trung Bộ nước ta là:",
+    optionA: "ngắn, thoải",
+    optionB: "ngắn, dốc",
+    optionC: "dài, thoải",
+    optionD: "dài, dốc",
+    correctOption: "optionB",
+  },
+
+  {
+    question:
+      "Sông ngòi ở vùng nào sau đây có giá trị thủy điện lớn nhất nước ta?",
+    optionA: "Tây Bắc",
+    optionB: "Đông Bắc",
+    optionC: "Tây Nguyên",
+    optionD: "Trung Bộ",
+    correctOption: "optionA",
+  },
+
+  {
+    question: "Điểm nào sau đây không đúng với nhóm đất feralit?",
+    optionA: "Đất chua, nghèo mùn",
+    optionB: "Hình thành tại các miền đồi núi thấp",
+    optionC: "Đất có màu đỏ, vàng",
+    optionD: "Thường dùng đẻ trồng lúa.",
+    correctOption: "optionD",
+  },
+
+  {
+    question:
+      "Đất đỏ badan tập trung nhiều nhất ở các vùng nào sau đây của nước ta?",
+    optionA: "Tây Nguyên, Đông Nam Bộ, Nam Bộ",
+    optionB: "Tây Nguyên, Đông Nam Bộ, Bắc Trung Bộ",
+    optionC: "Tây Nguyên, Bắc Bộ, Bắc Trung Bộ",
+    optionD: "Tây Nguyên, Bắc Trung Bộ, Đồng bằng sông Hồng.",
+    correctOption: "optionB",
+  },
+
+  {
+    question: `Căn cứ vào Attlat Địa lí Việt Nam trang 9, 
+      loại đất chiếm diện tích lớn nhất đồng bằng sông Hồng là:`,
+    optionA: "đất cát biển",
+    optionB: "đất phù sa sông",
+    optionC: "đất phèn",
+    optionD: "đất mặn",
+    correctOption: "optionB",
+  },
+
+  {
+    question: "Sinh vật Việt Nam có đặc điểm:",
+    optionA: "phong phú và đa dạng",
+    optionB: "có nhiều loài ôn đới",
+    optionC: "đa dạng về gen, đơn điệu về mặt sinh thái",
+    optionD: "rất ít về số lượng và chủng loại",
+    correctOption: "optionA",
+  },
+
+  {
+    question:
+      "Hệ sinh thái rừng ngập mặn ở nước ta tập trung nhiều nhất ở ven biển:",
+    optionA: "Bắc Bộ",
+    optionB: "Nam Trung Bộ",
+    optionC: "Bắc Trung Bộ",
+    optionD: "Nam Bộ",
+    correctOption: "optionD",
+  },
+
+  {
+    question: "Hệ sinh thái nào sau đây là hệ sinh thái tự nhiên?",
+    optionA: "Đầm phá",
+    optionB: "Rừng trồng cây công nghiệp",
+    optionC: "Đồng ruộng",
+    optionD: "Rừng trồng cây lấy gỗ",
+    correctOption: "optionA",
+  },
+
+  {
+    question:
+      "Nguyên nhân chủ yếu làm suy giảm nguồn lợi hải sản nước ta hiện nay là do:",
+    optionA: "đánh bắt bằng công cụ thô sơ",
+    optionB: "đánh bắt bằng công cụ hiện đại",
+    optionC: "đánh bắt bằng các phương tiện có tính hủy diệt",
+    optionD: "đánh bắt quy mô ngày càng lớn",
+    correctOption: "optionC",
+  },
+
+  {
+    question: "Sự phong phú của loài sinh vật biển ở nước ta là do:",
+    optionA: "vùng biển nước ta có nhiều ngư trường",
+    optionB: "thềm lục địa ấm và nóng, có nhiều dòng hải lưu ven biển",
+    optionC: "nước biển ấm, độ mặn cao",
+    optionD: "nhiều cửa sông đổ ra biển",
+    correctOption: "optionB",
+  },
+
+  {
+    question:
+      "Căn cứ vào Atlat Địa lí Việt Nam trang 12, vườn quốc gia nào sau đây thuộc phân khu địa lí động vật Đông Bắc?",
+    optionA: "Hoàng Liên Sơn",
+    optionB: "Xuân Sơn",
+    optionC: "Bái Tử Long",
+    optionD: "Pù Mát",
+    correctOption: "optionC",
+  },
+
+  {
+    question:
+      "Hệ sinh thái phát triển mạnh ở vùng đất bãi triều cửa sông, ven biển nước ta là:",
+    optionA: "rừng ngập nước",
+    optionB: "tràng cỏ, cây bụi",
+    optionC: "rừng ngập mặn",
+    optionD: "thảm cỏ ngập nước",
+    correctOption: "optionC",
+  },
+];
+let lengthQuestion = questions.length;
 let shuffledQuestions = []; //empty array to hold shuffled selected questions out of all available questions
 
 function handleQuestions() {
   //function to shuffle and push 10 questions to shuffledQuestions array
   //app would be dealing with 10questions per session
-  while (shuffledQuestions.length <= 9) {
-    const random = questions[Math.floor(Math.random() * questions.length)];
+  while (shuffledQuestions.length < lengthQuestion) {
+    const random = questions[Math.floor(Math.random() * lengthQuestion)];
     if (!shuffledQuestions.includes(random)) {
       shuffledQuestions.push(random);
     }
@@ -115,7 +275,7 @@ let indexNumber = 0; //will be used in displaying next question
 function NextQuestion(index) {
   handleQuestions();
   const currentQuestion = shuffledQuestions[index];
-  document.getElementById("question-number").innerHTML = questionNumber;
+  document.getElementById("question-number").innerHTML = index + 1;
   document.getElementById("player-score").innerHTML = playerScore;
   document.getElementById("display-question").innerHTML =
     currentQuestion.question;
@@ -182,7 +342,7 @@ function handleNextQuestion() {
   unCheckRadioButtons();
   //delays next question displaying for a second just for some effects so questions don't rush in on player
   setTimeout(() => {
-    if (indexNumber <= 9) {
+    if (indexNumber <= lengthQuestion - 1) {
       //displays next question as long as index number isn't greater than 9, remember index number starts from 0, so index 9 is question 10
       NextQuestion(indexNumber);
     } else {
@@ -214,17 +374,20 @@ function handleEndGame() {
   let remarkColor = null;
 
   // condition check for player remark and remark color
-  if (playerScore <= 3) {
+  if (playerScore <= lengthQuestion / 3) {
     remark = "Bad Grades, Keep Practicing.";
     remarkColor = "red";
-  } else if (playerScore >= 4 && playerScore < 7) {
+  } else if (
+    playerScore >= lengthQuestion / 3 &&
+    playerScore < lengthQuestion - 3
+  ) {
     remark = "Average Grades, You can do better.";
     remarkColor = "orange";
-  } else if (playerScore >= 7) {
+  } else if (playerScore >= lengthQuestion - 3) {
     remark = "Excellent, Keep the good work going.";
     remarkColor = "green";
   }
-  const playerGrade = (playerScore / 10) * 100;
+  const playerGrade = (playerScore / lengthQuestion) * 100;
 
   //data to display to score board
   document.getElementById("remarks").innerHTML = remark;
