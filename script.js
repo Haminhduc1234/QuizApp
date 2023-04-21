@@ -1052,6 +1052,835 @@ const questions = [
     optionD: "Vườn quốc gia Phong Nha – Kẻ Bàng",
     correctOption: "optionC",
   },
+  {
+    question:
+      "Tỉnh nào sau đây của vùng Trung du và miền núi Bắc Bộ không có biên giới với Trung Quốc?",
+    optionA: "Lào Cai",
+    optionB: "Cao Bằng",
+    optionC: "Hà Giang",
+    optionD: "Tuyên Quang",
+    correctOption: "optionD",
+  },
+
+  {
+    question:
+      "Thế mạnh nổi bật của tiểu vùng Tây Bắc thuộc vùng Trung du và miền núi Bắc Bộ là:",
+    optionA: "khai thác khoáng sản",
+    optionB: "khai thác thủy điện",
+    optionC: "trồng cây lương thực",
+    optionD: "chăn nuôi gia súc nhỏ",
+    correctOption: "optionB",
+  },
+
+  {
+    question:
+      "Loại cây công nghiệp được trồng nhiều nhất ở vùng Trung du và miền núi Bắc Bộ là:",
+    optionA: "cà phê",
+    optionB: "cao su",
+    optionC: "hồi",
+    optionD: "chè",
+    correctOption: "optionD",
+  },
+
+  {
+    question:
+      "Cửa khẩu nào sau đây không thuộc vùng Trung du và miền núi Bắc Bộ?",
+    optionA: "Lao Bảo",
+    optionB: "Móng Cái",
+    optionC: "Hữu Nghị",
+    optionD: "Lào Cai",
+    correctOption: "optionA",
+  },
+
+  {
+    question:
+      "Vật nuôi chiếm tỉ trọng lớn nhất cả nước của vùng Trung du và miền núi Bắc Bộ là:",
+    optionA: "bò",
+    optionB: "lợn",
+    optionC: "trâu",
+    optionD: "gà",
+    correctOption: "optionC",
+  },
+
+  {
+    question:
+      "Đặc điểm nào sau đây không đúng với vùng Trung du và miền núi Bắc Bộ? ",
+    optionA: " Có sự phân hóa thành hai tiểu vùng: Đông Bắc và Tây Bắc?",
+    optionB: "Có diện tích lớn nhất so với các vùng khác",
+    optionC: "Có dân số đông nhất so với các vùng khác",
+    optionD: "Giáp Lào và Trung Quốc",
+    correctOption: "optionC",
+  },
+
+  {
+    question:
+      "Những thế mạnh kinh tế quan trọng hàng đầu của Trung du và miền núi Bắc Bộ là:",
+    optionA:
+      "công nghiệp chế biến lương thực, thực phẩm và phát triển ngành thủy sản",
+    optionB: "trồng cây lương thực, cây ăn quả và khai thác lâm sản",
+    optionC: "giao thông vận tải biển và nuôi trồng thủy sản",
+    optionD: "khai thác khoáng sản và phát triển thủy điện",
+    correctOption: "optionD",
+  },
+
+  {
+    question: `Căn cứu Atlat địa lí Việt Nam trang 26, hãy cho biết Khu kinh tế cửa khẩu 
+      Thanh Thủy thuộc tỉnh nào của vùng Trung du miền núi Bắc Bộ?`,
+    optionA: "Hà Giang",
+    optionB: "Cao Bằng",
+    optionC: "Lạng Sơn",
+    optionD: "Quảng Ninh",
+    correctOption: "optionA",
+  },
+
+  {
+    question:
+      "Nhà máy thủy điện Sơn La và nhà máy thủy điện Hòa Bình đều nằm trên sông:",
+    optionA: "Đà",
+    optionB: "Lô",
+    optionC: "Gâm",
+    optionD: "Chảy",
+    correctOption: "optionA",
+  },
+
+  {
+    question:
+      "Tính đa dạng về cơ cấu sản phẩm nông nghiệp của Trung du và miền núi Bắc Bộ thể hiện ở chỗ có cả:",
+    optionA: "cây lương thực, cây ăn quả và cây thực phẩm",
+    optionB: "cây công nghiệp, cây ăn quả và cây dược liệu",
+    optionC: "cây nhiệt đới, cây cận nhiệt và cây ôn đới",
+    optionD: "cây thực phẩm, cây ăn quả và cây công nghiệp",
+    correctOption: "optionC",
+  },
+
+  {
+    question: `Căn cứ vào Atlat Địa lí Việt Nam trang 26, hãy cho biết vùng Trung du miền núi 
+      bắc Bộ có các trung tâm công nghiệp nào?`,
+    optionA: "Lào Cai, Điện Biên Phủ, Sơn La, Hòa Bình",
+    optionB: "Móng Cái, Tuyên Quang, Bắc Giang, Bắc Kạn",
+    optionC: "Thái Nguyên, Việt Trì, Hạ Long, Cẩm Phả",
+    optionD: "Cẩm Phả, Cao Bằng, Hà Giang, Uông Bí",
+    correctOption: "optionC",
+  },
+
+  {
+    question: "Tài nguyên quý giá nhất của Đồng bằng sông Hồng là:",
+    optionA: "khoáng sản",
+    optionB: "đất phù sa",
+    optionC: "biển",
+    optionD: "rừng",
+    correctOption: "optionB",
+  },
+
+  {
+    question: `Năm 2019, diện tích của vùng Đồng bằng sông Hồng là 21.260,8 km2 , số dân của vùng là 
+      22.920,2 nghìn người. Vậy mật độ dân số của vùng năm 2019 là:`,
+    optionA: "1.058 người/km2",
+    optionB: "1.068 người/km2",
+    optionC: "1.078 người/km2",
+    optionD: "1.088 người/km2",
+    correctOption: "optionC",
+  },
+
+  {
+    question:
+      "Đồng bằng của sông Hồng là đồng bằng châu thổ được bồi đắp bởi phù sa của hệ thống:",
+    optionA: "sông Hồng và sông Thái Bình",
+    optionB: "sông Hồng và sông Cầu",
+    optionC: "sông Hồng và sông Đà",
+    optionD: "sông Hồng và sông Lục Nam",
+    correctOption: "optionA",
+  },
+
+  {
+    question:
+      "Thế mạnh về tự nhiên giúp cho Đồng bằng sông Hồng có khả năng phát triển mạnh cây vụ đông là:",
+    optionA: "đất phù sa màu mỡ",
+    optionB: "có một mùa đông lạnh",
+    optionC: "nguồn nước mặt phong phú",
+    optionD: "địa hình bằng phẳng",
+    correctOption: "optionB",
+  },
+
+  {
+    question:
+      "Ý nào sau đây không phải là đặc điểm dân cư, lao động của Đồng bằng sông Hồng?",
+    optionA: "Là vùng đông dân cư nhất nước ta",
+    optionB: "Có nguồn lao động dồi dào",
+    optionC: "Phần lớn dân số sông ở thành thị",
+    optionD: "Người lao động có kinh nghiệm sản xuất",
+    correctOption: "optionC",
+  },
+
+  {
+    question:
+      "Nhận xét nào sau đây không uddngs về ngành trồng trọt ở Đồng bằng sông Hồng?",
+    optionA: "Sản lượng lúa cao nhất nước",
+    optionB: "Năng suất lúa cao nhất nước",
+    optionC: "Trình độ thâm canh cao nhất nước",
+    optionD: "Phát triển một số cây ưa lạnh",
+    correctOption: "optionA",
+  },
+
+  {
+    question:
+      "Địa danh du lịch nào sau đây không thuộc vùng Đồng bằng sông Hồng?",
+    optionA: "Chùa Hương",
+    optionB: "Côn Sơn – Kiếp Bạc",
+    optionC: "Tam Cố - Bích Động",
+    optionD: "Hồ Núi Cốc",
+    correctOption: "optionD",
+  },
+
+  {
+    question:
+      "Ngành công nghiệp nào sau đây không phải là ngành trọng điểm của Đồng bằng sông Hồng?",
+    optionA: "Chế biến lương thực, thực phẩm",
+    optionB: "Khai thoáng và thủy điện",
+    optionC: "Sản xuất hàng tiêu dùng",
+    optionD: "Cơ khí và sản xuất vật liệu xây dựng",
+    correctOption: "optionB",
+  },
+
+  {
+    question: "Hai trung tâm kinh tế lớn nhất ở Đồng bằng sông Hồng là:",
+    optionA: "Hà Nội, Vĩnh Yên",
+    optionB: "Hà Nội, Hải Dương",
+    optionC: "Hà Nội, Hải Phòng",
+    optionD: "Hà Nội, Nam Định",
+    correctOption: "optionC",
+  },
+  {
+    question:
+      "Nhân tố nào sau đây là điều kiện thuận lợi của Đồng bằng sông Hồng để thực hiện chuyển dịch cơ cấu kinh tế?",
+    optionA: "Bình quân đất canh tác theo đầu người thấp",
+    optionB: "Có nhiều thiên tai ",
+    optionC: "Cơ sở hạ tầng phục vụ cho công nghiệp và dịch vụ tốt",
+    optionD: "Giàu tài nguyên khoáng sản",
+    correctOption: "optionC",
+  },
+
+  {
+    question:
+      "Biện pháp tốt nhất để giải quyết ván đề lương thực, thực phẩm ở Đồng bằng sông Hồng là:",
+    optionA: "mở rộng giao lưu với các vùng lận cận",
+    optionB: "đẩy mạnh thâm canh, thay đổi cơ cấu mùa vụ",
+    optionC: "không ngừng mở rộng diện tích",
+    optionD: "nhập lương thực từ bên ngoài",
+    correctOption: "optionB",
+  },
+
+  {
+    question: "Đồng bằng sông Hồng phát triển mạnh chăn nuôi:",
+    optionA: "trâu, bò, dê, ngựa",
+    optionB: "gà, vịt, ngan, ngỗng, cừu",
+    optionC: "lợn, bò sữa, gia cầm và nuôi trồng thủy sản",
+    optionD: "bò thịt, đánh bắt thủy sản",
+    correctOption: "optionC",
+  },
+
+  {
+    question:
+      "Tam giác tăng trưởng kinh tế của vùng kinh tế trọng điểm Bắc Bộ là:",
+    optionA: "Hà Nội, Hải Phòng, Hạ Long",
+    optionB: "Hà Nội, Hải Dương, Hải Phòng",
+    optionC: "Hà Nội, Hưng Yên, Hải Dương",
+    optionD: "Hà Nội, Bắc Ninh, Vĩnh Yên",
+    correctOption: "optionA",
+  },
+
+  {
+    question: "Từ tây sang đông của các tỉnh trong vùng Bắc Trung Bộ đều có:",
+    optionA: "núi, gò đồi, đồng bằng và hải đảo",
+    optionB: "hải đảo, đồng bằng, gò đồi và núi",
+    optionC: "núi, gò đồi, đồng bằng",
+    optionD: "núi, đồng bằng, hải đảo",
+    correctOption: "optionA",
+  },
+  {
+    question:
+      "Dãy núi góp phần tạo ra sự phân hóa Đông – Tây của khí hậu vùng Bắc Trung Bộ là:",
+    optionA: "Hoàng Liên Sơn",
+    optionB: "Trường Sơn Bắc",
+    optionC: "Hoàng Sơn",
+    optionD: "Bạch Mã",
+    correctOption: "optionB",
+  },
+
+  {
+    question: "Các tỉnh, thành phố nào sau đây không thuộc vùng Bắc Trung Bộ?",
+    optionA: "Thanh Hóa, Nghệ An",
+    optionB: "Đà Nẵng, Quảng Nam",
+    optionC: "Hà Tĩnh, Quảng Bình",
+    optionD: "Quảng Trị, Thừa Thiên Huế",
+    correctOption: "optionB",
+  },
+
+  {
+    question: "Khu vực gò đồi phía tây của vùng Bắc Trung Bộ có thể mạnh về:",
+    optionA: "chăn nuôi trâu bò, trồng cây lương thực và hàng năm",
+    optionB: "trồng cây công nghiệp lâu năm và hàng năm",
+    optionC: "chăn nuôi trâu bò, trồng cây công nghiệp lâu năm",
+    optionD: "trồng rừng và bảo vệ môi trường sinh thái",
+    correctOption: "optionC",
+  },
+
+  {
+    question:
+      "Việc trồng ừng ven biển ỏ vùng Bắc Trung Bộ có ye nghĩa trong việc:",
+    optionA:
+      "bảo vệ môi trường sống của các loài sinh vật, bảo tồn các nguồn gen",
+    optionB: "điều hòa nguồn nước, hạn chế lũ lụt",
+    optionC:
+      "chống sạt lở đất, ngăn ảnh hưởng của nước mặn vào sâu trong đất liền",
+    optionD: "ngăn không cho cát bay, cát chảy lấn vào đồng ruộng, làng mạc",
+    correctOption: "optionD",
+  },
+
+  {
+    question:
+      "Căn cứ vào Atlat địa lí Việt Nam trang 17, ta thấy GDP bình quân đầu người (năm 2007) của các tỉnh Bắc Trung Bộ là:",
+    optionA: "dưới 6 triệu đồng",
+    optionB: "từ 6 đến 9 triệu đồng",
+    optionC: "từ 9 đến 12 triệu đồng",
+    optionD: "từ 12 đến 15 triệu đồng",
+    correctOption: "optionB",
+  },
+
+  {
+    question:
+      "Hạn chế lớn trong phát triển công nghiệp của vùng Bắc Trung Bộ là:",
+    optionA: "thiếu nguyên liệu",
+    optionB: "thiếu lao động",
+    optionC: "xa thị trường",
+    optionD: "thiếu kĩ thuật và vốn",
+    correctOption: "optionD",
+  },
+
+  {
+    question:
+      "Một trong những khó khăn lớn nhất về điều kiện tự nhiên ảnh hưởng đến sản xuất và đời sống của nhân dân vùng Bắc Trung Bộ là:",
+    optionA: "cơ sở hạ tầng thấp kém",
+    optionB: "thiên tai thường xuyên xảy ra",
+    optionC: "mật độ dân cư thấp",
+    optionD: "tài nguyên khoáng sản hạn chế",
+    correctOption: "optionB",
+  },
+
+  {
+    question: "Các trung tâm kinh tế quan trọng của vùng Bắc Trung Bộ là:",
+    optionA: "Thanh Hóa, Vinh, Huế",
+    optionB: "Thanh Hóa,Vinh, Hà Tĩnh",
+    optionC: "Vinh, Huế, Đông Hà",
+    optionD: "Thanh Hóa, Đông Hà, Huế",
+    correctOption: "optionA",
+  },
+
+  {
+    question:
+      "Căn cứ vào Atlat địa lí Việt Nam trang 8, mỏ sắt có trữ lượng lớn nhất ở vùng Bắc Trung Bộ là:",
+    optionA: "Cổ Định",
+    optionB: "Thạch Khê",
+    optionC: "Lệ Thủy",
+    optionD: "Thạch Hà",
+    correctOption: "optionB",
+  },
+
+  {
+    question: "Các tỉnh thuộc Bắc Trung Bộ lần lượt từ Bắc vào Nam là:",
+    optionA:
+      "Thanh Hóa, Nghệ An, Quảng Bình, Quảng Trị, Hà Tĩnh, Thừa Thiên Huế",
+    optionB:
+      "Thanh Hóa, Nghệ An, Hà Tĩnh, Quảng Bình, Quảng Trị, Thừa Thiên Huế",
+    optionC:
+      "Thanh Hóa, Hà Tĩnh, Nghệ An, Quảng Bình, Quảng Trị, Thừu Thiên Huế",
+    optionD:
+      " Thanh Hóa, Nghệ An, Hà Tĩnh, Quảng Trị, Quảng Bình, Thừa Thiên Huế ",
+    correctOption: "optionB",
+  },
+
+  {
+    question: "Các ngành công nghiệp quan trọng hàng đầu ở Bắc Trung Bộ là:",
+    optionA: "công nghiệp chế biến lương thực, thực phẩm và công nghiệp cơ khí",
+    optionB: "công nghiệp hóa chất và công nghiệp luyện kim",
+    optionC: "công nghiệp điện lực và công nghiệp khai thác dầu khí",
+    optionD: "công nghiệp khai khoáng và sản xuất vật liệu xây dựng",
+    correctOption: "optionD",
+  },
+
+  {
+    question:
+      "Vùng Duyên hải Nam Trung Bộ có thế mạnh tự nhiên về đánh bắt thủy sản là do:",
+    optionA: "có đường bờ biển dài với nhiều cửa sông, vũng vịnh, đầm phá",
+    optionB: "có vùng biển rộng, nhiều loài tôm cá với các ngư trường lớn",
+    optionC: "nhu cầu thủy sản lớn, công nghiệp chế biến phát triển mạnh",
+    optionD: "vũng nước mặn, nước lợ thích hợp cho việc nuôi trồng",
+    correctOption: "optionB",
+  },
+
+  {
+    question: "Các cánh đồng muối nổi tiếng ở vùng duyên hải Nam Trung Bộ là:",
+    optionA: "Diêm Diễn, Tĩnh Gia",
+    optionB: "Sa Huỳnh, Cà Ná",
+    optionC: "Cà Ná, Văn Lý",
+    optionD: "Thạch Khê, Phan Rang",
+    correctOption: "optionB",
+  },
+
+  {
+    question: "Trung tâm công nghiệp lớn nhất vùng Duyên hải Nam Trung Bộ là:",
+    optionA: "Đà Nẵng",
+    optionB: "Quảng Nam",
+    optionC: "Nha Trang",
+    optionD: "Quy Nhơn",
+    correctOption: "optionA",
+  },
+
+  {
+    question:
+      "Các bãi biển ở Duyên hải Nam Trung Bộ lần lượt từ Bắc vào Nam là:",
+    optionA: "Mỹ Khê, Nha Trang, Sa Huỳnh, Mũi Né",
+    optionB: "Mỹ Khê, Sa Huỳnh, Nha Trang, Mũi Né",
+    optionC: "Mỹ Khê, Nha Trang, Mũi Né, Sa Huỳnh",
+    optionD: "Mỹ Khê, Mũi Né, Sa Huỳnh, Nha Trang",
+    correctOption: "optionB",
+  },
+
+  {
+    question: "Di sản văn hóa phố cổ Hội An và Thánh địa Mỹ Sơn thuộc tỉnh:",
+    optionA: "Đà Nẵng",
+    optionB: "Quảng Ngãi",
+    optionC: "Quảng Nam",
+    optionD: "Khánh Hòa",
+    correctOption: "optionC",
+  },
+  {
+    question: `Nhận xét nào sau đây không đúng khi nói về khó khăn để phát triển 
+      nông nghiệp của vùng Duyên hải Nam Trung Bộ?`,
+    optionA: "Quỹ đất nông nghiệp rất hạn chế",
+    optionB: "Hạn hán kéo dài",
+    optionC: "Thường xuyên bị bão lụt",
+    optionD: "Người dân giàu kinh nghiệm trong phòng chống thiên tai",
+    correctOption: "optionD",
+  },
+
+  {
+    question: "Thương hiệu nước mắm nổi tiếng ở Duyên hải Nam Trung Bộ là:",
+    optionA: "Nha Trang, Phản Thiết",
+    optionB: "Ninh Thuận, Bình Thuận",
+    optionC: "Quảng Ngãi, Khánh Hòa",
+    optionD: "Quảng Nam, Quảng Ngãi",
+    correctOption: "optionA",
+  },
+
+  {
+    question:
+      "Tỉnh, thành phố nào sau đây không nằm trong vùng kinh tế trọng điểm miền Trung?",
+    optionA: "Đà Nẵng",
+    optionB: "Quảng Nam",
+    optionC: "Quảng Ngãi",
+    optionD: "Khánh Hòa",
+    correctOption: "optionD",
+  },
+
+  {
+    question: "Huyện đảo Hoàng Sa thuộc tỉnh, thành phố nào của nước ta?",
+    optionA: "Khánh Hòa",
+    optionB: "Đà Nẵng",
+    optionC: "Bình Định",
+    optionD: "Quảng Nam",
+    correctOption: "optionB",
+  },
+
+  {
+    question: "Tỉnh, thành phố không thuộc vùng Tây Nguyên?",
+    optionA: "Kon Tum",
+    optionB: "Lân Dồng",
+    optionC: "Đồng Nai",
+    optionD: "Đắk Lắk",
+    correctOption: "optionC",
+  },
+
+  {
+    question:
+      "Sự khác biệt giữa Tây Nguyên với các vùng khác của nước ta về vị trí địa lí là:",
+    optionA: "không giáp biển",
+    optionB: "giáp với Cam-pu-chia",
+    optionC: "giáp với nhiều vùng",
+    optionD: "giáp với Lào",
+    correctOption: "optionA",
+  },
+
+  {
+    question:
+      "Nhận xét nào sau đây không đúng về điều kiện tự nhiên của Tây Nguyên?",
+    optionA: "Diện tích đất đỏ badan rộng lớn, màu mỡ",
+    optionB: "Khí hậu nhiệt đới cận xích đạo, mùa khô kéo dài",
+    optionC: "Nhiệt độ có sự phân hóa theo độ cao",
+    optionD: "Độ che phủ rừng đứng sau vùng Bắc Trung Bộ",
+    correctOption: "optionD",
+  },
+
+  {
+    question:
+      "Khó khăn lớn nhất về mặt tự nhiên đối với phát triển nông nghiệp của vùng Tây Nguyên là:",
+    optionA: "thiếu nước về mùa khô",
+    optionB: "địa hình phân bậc khó canh tác",
+    optionC: "khí hậu phân hóa theo độ cao",
+    optionD: "đất có tầng phong hóa sâu",
+    correctOption: "optionA",
+  },
+  {
+    question: "Loại khoáng sản có trữ lượng lớn nhất ở Tây Nguyên là: ",
+    optionA: "than bùn",
+    optionB: "bô xít",
+    optionC: "đá quý",
+    optionD: "sắt",
+    correctOption: "optionB",
+  },
+
+  {
+    question: "Mật độ dân số của Tây Nguyên:",
+    optionA: "cao nhất nước ta",
+    optionB: "đứng ngay sau Đồng bằng sông Hồng",
+    optionC: "thấp nhất nước ta",
+    optionD: "vào loại trung bình của cả nước",
+    correctOption: "optionC",
+  },
+  {
+    question: "Tỉnh có diện tích trồng cây cà phê lớn nhất vùng Tây Nguyên là:",
+    optionA: "Gia Lai",
+    optionB: "Kon Tum",
+    optionC: "Đắk Lắk",
+    optionD: "Đắk Nông",
+    correctOption: "optionC",
+  },
+
+  {
+    question: "Địa điểm phát triển mạnh nhất về du lịch ở Tây Nguyên là:",
+    optionA: "Buôn Ma Thuột",
+    optionB: "Bảo Lộc",
+    optionC: "Plây Ku",
+    optionD: "Đà Lạt",
+    correctOption: "optionD",
+  },
+
+  {
+    question: "Nhà máy Thủy Điện Yaly của Tây Nguyên được xây dựng trên sông:",
+    optionA: "Xrê Pốk",
+    optionB: "Xê Xan",
+    optionC: "Đồng Nai",
+    optionD: "Ba",
+    correctOption: "optionB",
+  },
+
+  {
+    question:
+      "Dựa vào Atlat Địa lí Việt Nam trang 4 và 5, hai tỉnh ở vùng Đông Nam Bộ giáp với Cam-pu-chia là:",
+    optionA: "Tây Ninh, Bình Dương",
+    optionB: "Bình Dương, Bình Phước",
+    optionC: "Tây Ninh, Bình Phước",
+    optionD: "Bình Phước, Đồng Nai",
+    correctOption: "optionC",
+  },
+
+  {
+    question: "Hai loại đát chiếm tỉ lệ lớn nhất ở vùng Đông Nam Bộ là:",
+    optionA: "đất feralit và đất phù sa",
+    optionB: "đất badan và đất phù sa",
+    optionC: "đất xám và đất phù sa",
+    optionD: "đất badan và đất xámD",
+    correctOption: "option",
+  },
+
+  {
+    question: "Tài nguyên khoáng sản quan trọng nhất của vùng Đông Nam Bộ là:",
+    optionA: "bô xít",
+    optionB: "dầu mỏ, khí tự nhiên",
+    optionC: "sét, cao lanh",
+    optionD: "nước khoáng",
+    correctOption: "optionB",
+  },
+
+  {
+    question:
+      "Nhận xét nào sau đây không đúng khi nói về đặc điểm dân cư của vùng Đông Nam Bộ?",
+    optionA: "Lực lượng lao động dồi dào",
+    optionB: "Người dân năng động, sáng tạo",
+    optionC: "Mật độ thấp nhất nước ta",
+    optionD: "Thị trường tiêu thụ rộng lớn",
+    correctOption: "optionC",
+  },
+
+  {
+    question:
+      "Căn cứ vào Atlat Địa lí Việt Nam trang 29, hãy cho biết Đông Nam Bộ không có cửa khẩu quốc tế nào sau đây?",
+    optionA: "Bờ Y",
+    optionB: "Xa Mát",
+    optionC: "Mộc Bài",
+    optionD: "Hoa Lư",
+    correctOption: "optionA",
+  },
+
+  {
+    question:
+      "Ngành chiếm tỉ trọng cao nhất trong cơ cấu GDP của vùng Đông Nam Bộ là:",
+    optionA: "nống, lâm, ngư nghiệp",
+    optionB: "công nghiệp – xây dựng",
+    optionC: "dịch vụ",
+    optionD: "nông, lâm, ngư nghiệp và dịch vụ",
+    correctOption: "optionB",
+  },
+
+  {
+    question:
+      "Cây công nghiệp có diện tích và sản lượng lớn nhất cả nước ở vùng Đông Nam Bộ là:",
+    optionA: "cà phê",
+    optionB: "điều",
+    optionC: "cao su",
+    optionD: "hồ tiêu",
+    correctOption: "optionC",
+  },
+
+  {
+    question:
+      "Hạn chế lớn nhất để phát triển công nghiệp của vùng Đông Nam Bộ là:",
+    optionA: "diện tích đất canh tác không lớn",
+    optionB: "mùa khô kéo dài, thiếu nước nghiêm trọng",
+    optionC: "cơ sở vật chất – kĩ thuật kém phát triển",
+    optionD: "chậm chuyển đổi cơ cấu cây trồng",
+    correctOption: "optionB",
+  },
+
+  {
+    question: "Trung tâm du lịch lớn nhất cả nước là:",
+    optionA: "Hà Nội",
+    optionB: "Hải Phòng",
+    optionC: "Đà Nẵng",
+    optionD: "TP. Hồ Chí Minh",
+    correctOption: "optionD",
+  },
+
+  {
+    question: "Ba trung tâm kinh tế lớn nhất ở vùng Đông Nam Bộ là:",
+    optionA: "TP. Hồ Chí Minh, Bình Dương, Thủ Dầu Một",
+    optionB: "Biên Hòa, Vũng Tàu, Thủ Dầu Một",
+    optionC: "Đồng Nai, TP. Hồ Chí Minh, Tây Ninh",
+    optionD: "TP. Hồ Chí Minh, Biên Hòa, Vũng Tàu",
+    correctOption: "optionD",
+  },
+
+  {
+    question:
+      "Các tỉnh, thành phố nào sau đây không thuộc vùng Đồng bằng sông Cửu Long hiện nay?",
+    optionA: "An Giang, Kiên Giang, Hậu Giang, Tiền Giang",
+    optionB: "Cần Thơ, Long An, Vĩnh Long, Bạc Liêu",
+    optionC: "Đồng Nai, Tây Ninh, Bình Phước",
+    optionD: "Bến Tre, Trà Vinh, Sóc Trăng, Cà Mau, Đồng Tháp",
+    correctOption: "optionC",
+  },
+
+  {
+    question: "Loại đất có diện tích lớn nhất vùng Đồng bằng sông Cửu Long là:",
+    optionA: "đất phèn",
+    optionB: "đất mặn",
+    optionC: "đất phù sa",
+    optionD: "đất khác",
+    correctOption: "optionA",
+  },
+
+  {
+    question: `Nhận định nào không đúng khi nói về điều kiện tự nhiên và tài nguyên thiên nhiên của 
+      vùng Đồng bằng sông Cửu Long?`,
+    optionA:
+      "Điều kiện tự nhiên không thuận lợi để phát triển sản xuất nông nghiệp",
+    optionB: "Địa hình thấp bằng phẳng, khí hậu cận xích đạo nóng ẩm quanh năm",
+    optionC: "Đa sạng sinh học cả trên cạn và dưới nước",
+    optionD: "Nguồn hải sản phong phú",
+    correctOption: "optionA",
+  },
+  {
+    question: `Căn cứ vào Atlat Địa lí Việt Nam trang 29, hãy co biết tên các khu kinh tế ven 
+      biển của vùng Đồng bằng sông Cửu Long?`,
+    optionA: "Định An, Bạc Liêu",
+    optionB: "Định An, Năm Căn",
+    optionC: "Năm Căn, Rạch Giá",
+    optionD: "Định An, Kiên Lương",
+    correctOption: "optionB",
+  },
+
+  {
+    question: `Năm 2020, sản lượng lúa cả năm của nước ta là 47,3 triệu tấn, trong đó Đồng bằng Sông Cửu Long 
+      là 23,9 triệu tấn. Vậy Đồng bằng Sông Cửu Long là vùng có sản lượng lúa chiếm:`,
+    optionA: "dưới 50% so với cả nước",
+    optionB: "trên 50% so với cả nước",
+    optionC: "chiếm 52% so với cả nước",
+    optionD: "chiếm 53% so với cả nước",
+    correctOption: "optionB",
+  },
+
+  {
+    question:
+      "Ngành công nghiệp phát triển mạnh nhất ở vùng Đồng bằng sông Cửu Long là:",
+    optionA: "sản xuất vật liệu xây dựng",
+    optionB: "chế biến lương thực, thực phẩm",
+    optionC: "cơ khí",
+    optionD: "sản xuất hàng tiêu dùng",
+    correctOption: "optionB",
+  },
+
+  {
+    question: "VÙng sản xuất cây ăn quả lớn nhất nước ta là:",
+    optionA: "Đồng bằng sông Hồng",
+    optionB: "Đông Nam Bộ",
+    optionC: "Đồng bằng sông Cửu Long",
+    optionD: "Tây Nguyên",
+    correctOption: "optionC",
+  },
+
+  {
+    question: "Trung tâm kinh tế lớn nhất vùng Đồng bằng sông Cửu Long là:",
+    optionA: "Cần Thơ",
+    optionB: "Long Xuyên",
+    optionC: "Mỹ Tho",
+    optionD: "Cà Mau",
+    correctOption: "optionA",
+  },
+
+  {
+    question: "Tỉnh nào sau đây nằm trong vùng kinh tế trọng điểm phía Nam?",
+    optionA: "Sóc Trăng",
+    optionB: "Kiên Giang",
+    optionC: "An Giang",
+    optionD: "Long An",
+    correctOption: "optionD",
+  },
+
+  {
+    question: `Căn cứ vào Atlat Địa lí Việt Nam trang 29, các trung tâm công nghiệp có quy mô từ 
+      9 đến 40 nghìn tỉ đồng/trung tâm ở Đồng bằng sông Cửu Long là:`,
+    optionA: "Sóc Trăng, Kiên Giang",
+    optionB: "Cần Thơ, Cà Mau",
+    optionC: "Long Xuyên, Đồng Tháp",
+    optionD: "Tân An, Mỹ Tho",
+    correctOption: "optionB",
+  },
+
+  {
+    question: "Hàng xuất khẩu chủ lực của Đồng bằng sông Cửu Long là:",
+    optionA: "vật liệu xây dựng",
+    optionB: "hàng tiêu dùng",
+    optionC: "cơ khí nông nghiệp",
+    optionD: "lương thực, thực phẩm",
+    correctOption: "optionD",
+  },
+
+  {
+    question: "Nhận định nào sau đây không đúng với Đồng bằng sông Cửu Long?",
+    optionA: "Năng suất lúa cao nhất",
+    optionB: "Diện tích đồng bằng lớn nhất",
+    optionC: "Sản xuất lúa gạo nhiều nhất",
+    optionD: "xuất khẩu nông sản nhiều nhất",
+    correctOption: "optionA",
+  },
+
+  {
+    question: "Đảo ven bờ có diện tích lớn nhất nước ta là”",
+    optionA: "Cát Bà",
+    optionB: "Phú QUốc",
+    optionC: "Phú Quý",
+    optionD: "Cái Bầu",
+    correctOption: "optionB",
+  },
+
+  {
+    question:
+      "Từ đất liền đến ranh giới vùng biển quốc tế, các bộ phận thuộc chủ quyền trên biển của nước ta lần lượt là:",
+    optionA:
+      "lãnh hải, vùng tiếp giáp lãnh hải, nội thủy, vùng đặc quyền kinh tế và thềm lục địa",
+    optionB:
+      "nội thủy, lãnh hải, vùng tiếp giáp lãnh hải, vùng đặc quyền kinh tế và thềm lục địa",
+    optionC:
+      "lãnh hải, vùng tiếp giáp lãnh hải, vùng đặc quyền kinh tế , thềm lục địa và nội thủy",
+    optionD:
+      "nội thủy, vùng tiếp giáp lãnh hải, lãnh hải, vùng đặc quyền kinh tế và thềm lục địa",
+    correctOption: "optionB",
+  },
+
+  {
+    question: "Lãnh hải là:",
+    optionA: "vùng biển thuộc chủ quyền quốc gia trên biển",
+    optionB: "vùng biển rộng 200 hải lí",
+    optionC: "vùng tiếp giáp với vùng biển quốc tế",
+    optionD: "vùng có độ sâu koảng 200m",
+    correctOption: "optionA",
+  },
+
+  {
+    question: "Đường bờ biển của nước ta là 3.260 km, chạy từ:",
+    optionA: "tỉnh Quảng Ninh đến tỉnh Cà Mau",
+    optionB: "tỉnh Lạng Sơn đến tỉnh Cà Mau",
+    optionC: "tỉnh Lạng Sơn đến tỉnh Kiên Giang",
+    optionD: "tỉnh Quảng Ninh đến tỉnh Kiên Giang",
+    correctOption: "optionD",
+  },
+
+  {
+    question:
+      "Nhận xét nào sau đây không đúng về hướng phát triển ngành thủy sản của nước ta?",
+    optionA: "Ưu tiên phát triển khai thác thủy sản xa bờ",
+    optionB: "Đẩy mạnh nuôi trồng hải sản trên biển, ven biển và ven các đảo",
+    optionC: "Phát triển đồng bộ và hiện đại công nghiệp chế biến",
+    optionD: "Đẩy mạnh khai thác hải sản gần bờ",
+    correctOption: "optionD",
+  },
+
+  {
+    question: "Tài nguyên khoáng sản quan trọng nhất ở vùng biển nước ta là:",
+    optionA: "cát trắng",
+    optionB: "muối biển",
+    optionC: "dầu mỏ, khí đốt",
+    optionD: "oxit titan",
+    correctOption: "optionC",
+  },
+
+  {
+    question: "Huyện đảo Trường Sa thuộc tỉnh , thành phố nào của nước ta?",
+    optionA: "Quảng Nam",
+    optionB: "Đà Nẵng",
+    optionC: "Khánh Hòa",
+    optionD: "Quảng Ngãi",
+    correctOption: "optionC",
+  },
+
+  {
+    question:
+      "Việc khai thác tài nguyên sinh vật biển và hải đảo ở nước ta cần phải?",
+    optionA: "khai thác triệt để nguồn lợi ven bờ",
+    optionB: "khai thác hợp lí đi đôi với bảo vệ",
+    optionC: "sử dụng phương tiện khai thác có tính hủy diệt",
+    optionD: "mở rộng hợp tác với nhiều nước",
+    correctOption: "optionB",
+  },
+
+  {
+    question: "Hoạt động du lịch biển hiện nay mới chỉ tập trung khai thác:",
+    optionA: "hoạt động tắm biển",
+    optionB: "du lịch nghỉ dưỡng",
+    optionC: "du lịch trải nghiệm",
+    optionD: "du lịch sinh thái",
+    correctOption: "optionA",
+  },
+
+  {
+    question: "Nước ta cần phải khai thác tổng hợp kinh tế biển vì:",
+    optionA: "tiện cho việc đầu tư vốn và kĩ thuật",
+    optionB: "do môi trường biển dễ bị chia cắt",
+    optionC: "khái thác tổng hợp mới đem lại hiệu quả kinh tế cao",
+    optionD:
+      "môi trường đảo diện tích nhỏ, rất nhạy cảm dưới tác động của con người.",
+    correctOption: "optionC",
+  },
 ];
 let lengthQuestion = questions.length;
 let shuffledQuestions = []; //empty array to hold shuffled selected questions out of all available questions
