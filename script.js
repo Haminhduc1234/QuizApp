@@ -1589,8 +1589,8 @@ const questions = [
     optionA: "đất feralit và đất phù sa",
     optionB: "đất badan và đất phù sa",
     optionC: "đất xám và đất phù sa",
-    optionD: "đất badan và đất xámD",
-    correctOption: "option",
+    optionD: "đất badan và đất xám",
+    correctOption: "optionD",
   },
 
   {
